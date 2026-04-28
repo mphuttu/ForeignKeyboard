@@ -1,0 +1,54 @@
+# Visual Studio build output directories
+x64/
+Win32/
+Debug/
+Release/
+ipch/
+
+# Visual Studio hidden folder (.vs)
+.vs/
+
+# Compiled resource files
+*.aps
+
+# User-specific project settings
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.db
+*.opendb
+
+# Visual Studio IntelliSense / Browse databases
+*.ncb
+*.pch
+*.idb
+*.ilk
+*.exp
+*.pdb
+
+# Object files and static libs produced during build
+*.obj
+*.lib
+
+# Precompiled headers
+*.gch
+
+# Log and tlog files
+*.log
+*.tlog
+
+# MSBuild generated file lists
+*.FileListAbsolute.txt
+*.recipe
+
+# Installer output
+Installer/
+
+# Compiled CHM help file (built from help/ sources — re-generate with hhc.exe)
+help/ForeignKeyboard.chm
+
+# Packaging / distribution archives
+*.zip
+*.7z
+*.rar

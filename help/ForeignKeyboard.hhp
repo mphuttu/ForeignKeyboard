@@ -1,0 +1,23 @@
+[OPTIONS]
+Compiled file=ForeignKeyboard.chm
+Contents file=ForeignKeyboard.hhc
+Index file=ForeignKeyboard.hhk
+Default topic=index.html
+Title=Foreign Keyboard Help
+Default Window=Main
+Language=0x409 English (United States)
+Full-text search=Yes
+Enhanced decompilation=No
+
+[WINDOWS]
+Main="Foreign Keyboard Help","ForeignKeyboard.hhc","ForeignKeyboard.hhk","index.html","index.html",,,,,0x62520,,0x10384e,,,,,,,,0
+
+[FILES]
+index.html
+overview.html
+languages.html
+keyboard_area.html
+special_buttons.html
+physical_keyboard.html
+
+[INFOTYPES]

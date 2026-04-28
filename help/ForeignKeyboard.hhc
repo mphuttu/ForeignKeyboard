@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+<OBJECT type="text/site properties">
+  <param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="Welcome">
+    <param name="Local" value="index.html">
+  </OBJECT>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="Overview">
+    <param name="Local" value="overview.html">
+  </OBJECT>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="Supported Languages">
+    <param name="Local" value="languages.html">
+  </OBJECT>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="Alphabet Keyboard Area">
+    <param name="Local" value="keyboard_area.html">
+  </OBJECT>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="Special Buttons Reference">
+    <param name="Local" value="special_buttons.html">
+  </OBJECT>
+  <LI><OBJECT type="text/sitemap">
+    <param name="Name" value="Using the Physical Keyboard">
+    <param name="Local" value="physical_keyboard.html">
+  </OBJECT>
+</UL>
+</BODY>
+</HTML>
