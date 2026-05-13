@@ -294,6 +294,111 @@ void CForeignKeyboardDlg::InitAlphabets()
 			L"Pi", L"Rho", L"Sigma", L"Tau", L"Upsilon", L"Phi", L"Chi",
 			L"Psi", L"Omega"
 		};
+
+		// Polytonisia merkkejä Isä meidän -rukousta varten (antiikin kreikka)
+		// Loppusigma
+		greek.lowercase.push_back(L"\u03C2");  // ς
+		greek.uppercase.push_back(L"\u03C2");
+		greek.charNames.push_back(L"Final Sigma");
+		// Alpha-muodot
+		greek.lowercase.push_back(L"\u03AC");  // ά
+		greek.uppercase.push_back(L"\u0386");  // Ά
+		greek.charNames.push_back(L"Alpha with Acute");
+		greek.lowercase.push_back(L"\u1F70");  // ὰ
+		greek.uppercase.push_back(L"\u1FBA");  // Ὰ
+		greek.charNames.push_back(L"Alpha with Grave");
+		greek.lowercase.push_back(L"\u1FB6");  // ᾶ
+		greek.uppercase.push_back(L"\u1FB6");
+		greek.charNames.push_back(L"Alpha with Perispomeni");
+		greek.lowercase.push_back(L"\u1F00");  // ἀ
+		greek.uppercase.push_back(L"\u1F08");  // Ἀ
+		greek.charNames.push_back(L"Alpha with Smooth Breathing");
+		greek.lowercase.push_back(L"\u1F01");  // ἁ
+		greek.uppercase.push_back(L"\u1F09");  // Ἁ
+		greek.charNames.push_back(L"Alpha with Rough Breathing");
+		greek.lowercase.push_back(L"\u1F04");  // ἄ
+		greek.uppercase.push_back(L"\u1F0C");  // Ἄ
+		greek.charNames.push_back(L"Alpha with Smooth Breathing and Acute");
+		// Epsilon-muodot
+		greek.lowercase.push_back(L"\u03AD");  // έ
+		greek.uppercase.push_back(L"\u0388");  // Έ
+		greek.charNames.push_back(L"Epsilon with Acute");
+		greek.lowercase.push_back(L"\u1F10");  // ἐ
+		greek.uppercase.push_back(L"\u1F18");  // Ἐ
+		greek.charNames.push_back(L"Epsilon with Smooth Breathing");
+		// Eta-muodot
+		greek.lowercase.push_back(L"\u03AE");  // ή
+		greek.uppercase.push_back(L"\u0389");  // Ή
+		greek.charNames.push_back(L"Eta with Acute");
+		greek.lowercase.push_back(L"\u1F74");  // ὴ
+		greek.uppercase.push_back(L"\u1FCA");  // Ὴ
+		greek.charNames.push_back(L"Eta with Grave");
+		greek.lowercase.push_back(L"\u1FC6");  // ῆ
+		greek.uppercase.push_back(L"\u1FC6");
+		greek.charNames.push_back(L"Eta with Perispomeni");
+		greek.lowercase.push_back(L"\u1F21");  // ἡ
+		greek.uppercase.push_back(L"\u1F29");  // Ἡ
+		greek.charNames.push_back(L"Eta with Rough Breathing");
+		greek.lowercase.push_back(L"\u1FC3");  // ῃ
+		greek.uppercase.push_back(L"\u1FC3");
+		greek.charNames.push_back(L"Eta with Iota Subscript");
+		// Iota-muodot
+		greek.lowercase.push_back(L"\u03AF");  // ί
+		greek.uppercase.push_back(L"\u038A");  // Ί
+		greek.charNames.push_back(L"Iota with Acute");
+		greek.lowercase.push_back(L"\u1F76");  // ὶ
+		greek.uppercase.push_back(L"\u1FDA");  // Ὶ
+		greek.charNames.push_back(L"Iota with Grave");
+		greek.lowercase.push_back(L"\u1FD6");  // ῖ
+		greek.uppercase.push_back(L"\u1FD6");
+		greek.charNames.push_back(L"Iota with Perispomeni");
+		greek.lowercase.push_back(L"\u1F30");  // ἰ
+		greek.uppercase.push_back(L"\u1F38");  // Ἰ
+		greek.charNames.push_back(L"Iota with Smooth Breathing");
+		// Omicron-muodot
+		greek.lowercase.push_back(L"\u03CC");  // ό
+		greek.uppercase.push_back(L"\u038C");  // Ό
+		greek.charNames.push_back(L"Omicron with Acute");
+		greek.lowercase.push_back(L"\u1F78");  // ὸ
+		greek.uppercase.push_back(L"\u1FF8");  // Ὸ
+		greek.charNames.push_back(L"Omicron with Grave");
+		greek.lowercase.push_back(L"\u1F40");  // ὀ
+		greek.uppercase.push_back(L"\u1F48");  // Ὀ
+		greek.charNames.push_back(L"Omicron with Smooth Breathing");
+		greek.lowercase.push_back(L"\u1F41");  // ὁ
+		greek.uppercase.push_back(L"\u1F49");  // Ὁ
+		greek.charNames.push_back(L"Omicron with Rough Breathing");
+		greek.lowercase.push_back(L"\u1F44");  // ὄ
+		greek.uppercase.push_back(L"\u1F4C");  // Ὄ
+		greek.charNames.push_back(L"Omicron with Smooth Breathing and Acute");
+		// Upsilon-muodot
+		greek.lowercase.push_back(L"\u03CD");  // ύ
+		greek.uppercase.push_back(L"\u038E");  // Ύ
+		greek.charNames.push_back(L"Upsilon with Acute");
+		greek.lowercase.push_back(L"\u1F50");  // ὐ
+		greek.uppercase.push_back(L"\u1F50");
+		greek.charNames.push_back(L"Upsilon with Smooth Breathing");
+		greek.lowercase.push_back(L"\u1FE6");  // ῦ
+		greek.uppercase.push_back(L"\u1FE6");
+		greek.charNames.push_back(L"Upsilon with Perispomeni");
+		// Omega-muodot
+		greek.lowercase.push_back(L"\u03CE");  // ώ
+		greek.uppercase.push_back(L"\u038F");  // Ώ
+		greek.charNames.push_back(L"Omega with Acute");
+		greek.lowercase.push_back(L"\u1F61");  // ὡ
+		greek.uppercase.push_back(L"\u1F69");  // Ὡ
+		greek.charNames.push_back(L"Omega with Rough Breathing");
+		greek.lowercase.push_back(L"\u1FF6");  // ῶ
+		greek.uppercase.push_back(L"\u1FF6");
+		greek.charNames.push_back(L"Omega with Perispomeni");
+		greek.lowercase.push_back(L"\u1FF7");  // ῷ
+		greek.uppercase.push_back(L"\u1FF7");
+		greek.charNames.push_back(L"Omega with Perispomeni and Iota Subscript");
+		// Rho-muoto
+		greek.lowercase.push_back(L"\u1FE5");  // ῥ
+		greek.uppercase.push_back(L"\u1FEC");  // Ῥ
+		greek.charNames.push_back(L"Rho with Rough Breathing");
+
 		greek.hasUppercase = true;
 		greek.rightToLeft = false;
 

@@ -5,6 +5,7 @@ A Windows desktop application that provides an on-screen virtual keyboard for ty
 ## Features
 
 - **Five scripts supported:** Arabic, Farsi (Persian), Greek, Hebrew, Russian
+- **Polytonic (ancient) Greek:** extended set of characters with diacritics — smooth/rough breathing, acute/grave/circumflex accents, iota subscript — for typing Classical and Byzantine Greek
 - **Right-to-left (RTL) support:** the output text box automatically switches direction for Arabic, Farsi and Hebrew
 - **Shift key:** toggles uppercase/lowercase for Greek and Russian
 - **Physical keyboard pass-through:** typing A–Z and 0–9 on the real keyboard inserts the mapped foreign characters
@@ -81,13 +82,13 @@ ForeignKeyboard/
 
 ## Supported Scripts
 
-| Language | Script | Direction | Case |
-|---|---|---|---|
-| Greek | Greek alphabet | Left to right | Upper & lower |
-| Russian | Cyrillic | Left to right | Upper & lower |
-| Arabic | Arabic script | Right to left | — |
-| Hebrew | Hebrew script | Right to left | — |
-| Farsi (Persian) | Perso-Arabic | Right to left | — |
+| Language | Script | Direction | Case | Notes |
+|---|---|---|---|---|
+| Greek | Greek alphabet | Left to right | Upper & lower | Includes polytonic (ancient Greek) diacritics |
+| Russian | Cyrillic | Left to right | Upper & lower | |
+| Arabic | Arabic script | Right to left | — | |
+| Hebrew | Hebrew script | Right to left | — | |
+| Farsi (Persian) | Perso-Arabic | Right to left | — | |
 
 ## License
 
