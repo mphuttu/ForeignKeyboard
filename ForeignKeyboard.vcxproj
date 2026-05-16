@@ -219,7 +219,7 @@
     <None Include="res\ForeignKeyboard.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\ForeignKeyboard.ico" />
+    <Image Include="res\ForeignKeyboardIcon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

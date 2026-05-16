@@ -56,7 +56,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\ForeignKeyboard.ico">
+    <Image Include="res\ForeignKeyboardIcon.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

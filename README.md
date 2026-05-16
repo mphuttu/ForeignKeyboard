@@ -77,7 +77,8 @@ ForeignKeyboard/
 │   ├── special_buttons.html
 │   └── physical_keyboard.html
 └── res/
-    └── ForeignKeyboard.rc2
+    ├── ForeignKeyboard.rc2
+    └── ForeignKeyboardIcon.ico      # Application icon (app window, taskbar, desktop shortcut)
 ```
 
 ## Supported Scripts

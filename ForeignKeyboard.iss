@@ -29,7 +29,7 @@ AppVerName={#AppName} {#AppVersion}
 
 ; --- Installer appearance ---
 WizardStyle=modern
-SetupIconFile=res\ForeignKeyboard.ico
+SetupIconFile=res\ForeignKeyboardIcon.ico
 UninstallDisplayIcon={app}\{#AppExeName}
 
 ; --- Installation target ---
