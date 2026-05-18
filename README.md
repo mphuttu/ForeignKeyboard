@@ -17,7 +17,7 @@ A Windows desktop application that provides an on-screen virtual keyboard for ty
 
 ## Screenshots
 
-*(Add screenshots here)*
+![Foreign Keyboard – Greek polytonic layout](docs/images/2026-05-18-ForeignKeyboard-Screenshot.png)
 
 ## Requirements
 
